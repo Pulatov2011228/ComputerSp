@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url("https://img77.uenicdn.com/image/upload/v1581392365/category/shutterstock_1445581079.jpg"); */
+}
+
+.homelogo{
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+}
+
+li{
+    list-style: none;
+}
+
+.imgtext{
+  /* border: 10px solid; */
+  filter: blur(0.5px);
+  width: 100%;
+  height: 50%;
+  border-radius: 30px;
+}
+
+.weblogo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+a{
+    margin-top: 100px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    /* font-size: smaller; */
+}
+
+header{
+    position: relative; 
+    padding: 0 8rem;
+    border: 1.5px;
+    border-radius: 15px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 30 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #333;
+  }
+
+  .ppp{
+    color: darkblue;
+    font-size: 25px;
+  }
+
+  .text-end{
+    color: #fff;
+    filter: blur(0px);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .LAPTOPS-TEXT{
+    font-size: 28px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .endtext{
+    color: #fff;
+    font-size: 30px;
+  
+  }
+
+  .box-end{
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://basic-tutorials.de/wp-content/uploads/2020/04/ROG-Zephyrus-Duo-15_GX550_Scenario-Photo_06-scaled.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+  }
+
+  .ttt{
+    font-size: 25px;
+    margin-left: 350px;
+    margin-top: -300px;
+  }
+
+  .navbar .links{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .PRICE{
+    color: red;
+  }
+
+  .shoplogo{
+    height:540px;
+    width: 960px;
+  }
+
+.textweb{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .card_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10px;
+  }
+
+  .card{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px, 2px, 4px, rgba(0,0,0,0.2);
+    margin: 20px;
+  }
+
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+
+  .card_content{
+    padding: 20px;
+  }
+
+  .card_content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .card_content p{
+    color: grey;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .card_content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #f0f0f0;
+  }
+
+  .card:hover{
+    margin-top: 5px;
+    transition: 0.5s;
+    width: 300px;
+  }
+
+  .card:hover::after{
+    transition: 0.5s;
+  }
+
+
+
+
+
+  .wrapper {
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.cardd {
+    width: 250px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.cardd > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cardd > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.cardd > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .5s;
+    transition: all .5s ease;
+}
+
+.description p {
+    color: #b0b0ba;
+    padding-top: 5px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 600px;
+}
+
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.cardd[for="c1"] {
+    background-image: url('https://images.lifestyleasia.com/wp-content/uploads/2019/09/12200853/1555002503_predator-helios-300_ph315-52-53_01.jpg');
+}
+.cardd[for="c2"] {
+    background-image: url('https://pbs.twimg.com/media/D-jloAPXoAE4fkf?format=jpg&name=4096x4096');
+}
+.cardd[for="c3"] {
+    background-image: url('https://i.pinimg.com/originals/ae/7a/89/ae7a899bbff198743a7f348910905bb3.jpg');
+}
+.cardd[for="c4"] {
+    background-image: url('https://althoztorg.ru/wp-content/uploads/8/6/b/86b6a0333c4ddb0e03ec610e5e7c8666.jpeg');
+}
+
+
